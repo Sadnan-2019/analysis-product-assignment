@@ -36,7 +36,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" aria-current="page" to="/review-order">
+                  <Link className="nav-link active" aria-current="page" to="/dashboard">
                   Dashboard
                   </Link>
                 </li>
