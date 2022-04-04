@@ -10,7 +10,7 @@ const ShortReview = () => {
 
           return (
                    <div className='container'>
-                             <h1 className='text-center'>Customer Review</h1>
+                             <h1 className='text-center py-5'>Customer Review</h1>
                              <div className='row'>
 
                              <div className='short-reviews-container'>
