@@ -1,0 +1,13 @@
+.reviews-container img{
+
+          width: 200px;
+          height: 200px;
+          border: 10px;
+          border-radius: 10px;
+}
+.reviews-container h5, p{
+
+          margin: 0;
+          margin-left:5px;
+           
+}

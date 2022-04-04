@@ -1,6 +1,7 @@
 import React from 'react';
 import useReview from '../../hooks/useReview';
 import Reviews from '../Reviews/Reviews';
+import './ShortReview.css'
 
 const ShortReview = () => {
           const [reviews,setReview] = useReview();
@@ -8,8 +9,12 @@ const ShortReview = () => {
 
 
           return (
-                    <div>
-                              <h1>This is Review</h1>
+                   <div className='container'>
+                             <h1 className='text-center'>Customer Review</h1>
+                             <div className='row'>
+
+                             <div className='short-reviews-container'>
+                              {/* <h1>This is Review</h1> */}
                         {
                           datas.map(review=><Reviews
                           review={review}
@@ -19,6 +24,8 @@ const ShortReview = () => {
 
                         }      
                     </div>
+                             </div>
+                   </div>
           );
 };
 

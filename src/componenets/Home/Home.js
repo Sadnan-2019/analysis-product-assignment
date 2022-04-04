@@ -25,16 +25,29 @@ const Home = () => {
               alt="" className="img-fluid rounded-3"
             />
           </div>
-        </div>
-        
-          <ShortReview></ShortReview>
-          <div>
           
-          <Link className="nav-link active" aria-current="page" to="/review">
+        </div>
+        <div>
+       
+
+
+        </div>
+          
+         
+      </div>
+      <div className="">
+                <div >
+
+                <ShortReview></ShortReview>  
+                </div>
+                <div>
+          
+          <Link className="nav-link active text-center"   to="/review">
                  ALL Reviews
                   </Link>
                   
           </div>
+
       </div>
     </div>
   );

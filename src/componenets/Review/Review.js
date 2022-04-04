@@ -1,6 +1,7 @@
 import React from 'react';
 import useReview from '../../hooks/useReview';
 import Reviews from '../Reviews/Reviews';
+import "./Review.css"
 
 const Review = () => {
 
@@ -8,8 +9,12 @@ const Review = () => {
 
 
           return (
-                    <div>
-                              <h1>This is Review</h1>
+                   <div className='container'>
+                              <h1 className='text-center'>All Review</h1>
+
+                             <div className='row'>
+                             <div className='review-container ' >
+                              {/* <h1>This is Review</h1> */}
                         {
                           reviews.map(review=><Reviews
                           review={review}
@@ -19,6 +24,8 @@ const Review = () => {
 
                         }      
                     </div>
+                             </div>
+                   </div>
           );
 };
 
