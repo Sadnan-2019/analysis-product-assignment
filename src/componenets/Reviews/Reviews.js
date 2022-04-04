@@ -7,14 +7,14 @@ const Reviews = (props) => {
                     <div className='container'>
                              
                         <div className='row'>
-                                  <div className='reviews-container d-flex align-items-center  '>
+                                  <div className='reviews-container d-flex align-items-center bg-dark '>
                                         <div>
                                         <img src={img} alt=""/>  
 
                                         </div>
                                 <div className=''>
 
-                                <h5>Name:{name}</h5> 
+                                <p>Name:{name}</p> 
                           
                           <p>Description:{description}</p> 
                           <p>Ratings:{ratings}</p> 

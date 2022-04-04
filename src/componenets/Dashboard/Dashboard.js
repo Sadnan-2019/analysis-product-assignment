@@ -21,7 +21,10 @@ const Dashboard = () => {
       .then((data) => setDatas(data));
   }, []);
   return (
-    <div className="container dashboard   mt-4">
+   <div>
+<h1 className="text-center my-instrument py-4">My Chart</h1>
+<div className="container dashboard   mt-4">
+      
       <div className="">
         <BarChart width={600} height={300} data={datas}>
           <XAxis dataKey="month" tick="investment" />
@@ -87,6 +90,7 @@ const Dashboard = () => {
         </PieChart>
       </div>
     </div>
+   </div>
   );
 };
 

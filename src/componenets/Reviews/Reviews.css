@@ -3,11 +3,21 @@
           width: 200px;
           height: 200px;
           border: 10px;
-          border-radius: 10px;
+          border-radius: 20px;
+          padding: 10px;
 }
 .reviews-container h5, p{
 
           margin: 0;
-          margin-left:5px;
+          /* margin-left:5px; */
+          color: white;
+          padding: 0;
            
+}
+.reviews-container{
+
+          border: 10px solid white;
+          border-radius:20px;
+          margin: 0;
+          padding: 0;
 }

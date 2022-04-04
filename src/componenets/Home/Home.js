@@ -19,12 +19,13 @@ const Home = () => {
           <div className="col-lg-6 col-md-6 py-5 ">
             <h1 className="my-instrument">My Music</h1>
             <h1 className="my-drem">My Drem</h1>
-            <p>
+            <p className="description"  >
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
               provident dolorum, pariatur ex nemo aperiam in esse soluta iste,
               assumenda quae, ducimus consectetur tempore voluptates quaerat
               libero necessitatibus hic repellat.
             </p>
+            <button className="btn btn-dark rounded-3 mt-4">Click More</button>
           </div>
           <div className="col-md-6 col-lg-6">
             <img
