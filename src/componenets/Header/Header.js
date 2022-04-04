@@ -31,7 +31,7 @@ const Header = () => {
 
 
                 <li className="nav-item">
-                  <Link className="nav-link active" aria-current="page" to="/review-order">
+                  <Link className="nav-link active" aria-current="page" to="/review">
                   Reviews
                   </Link>
                 </li>
@@ -41,7 +41,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link active" aria-current="page" to="/review-order">
+                  <Link className="nav-link active" aria-current="page" to="">
                  Blog
                   </Link>
                 </li>

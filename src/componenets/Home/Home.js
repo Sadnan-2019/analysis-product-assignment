@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import ShortReview from "../ShortReview.js/ShortReview";
 import "./Home.css";
 
 const Home = () => {
@@ -24,6 +26,15 @@ const Home = () => {
             />
           </div>
         </div>
+        
+          <ShortReview></ShortReview>
+          <div>
+          
+          <Link className="nav-link active" aria-current="page" to="/review">
+                 ALL Reviews
+                  </Link>
+                  
+          </div>
       </div>
     </div>
   );
