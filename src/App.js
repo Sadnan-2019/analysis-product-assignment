@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Blog from './componenets/Blog/Blog';
 import Dashboard from './componenets/Dashboard/Dashboard';
 import Error from './componenets/Error/Error';
 import Header from './componenets/Header/Header';
@@ -18,6 +19,7 @@ function App() {
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/dashboard' element={<Dashboard/>}></Route>
         <Route path='/review' element={<Review/>}></Route>
+        <Route path='/blog' element={<Blog/>}></Route>
         <Route path='*' element={<Error></Error>}></Route>
       </Routes>
 
