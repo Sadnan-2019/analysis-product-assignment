@@ -4,6 +4,16 @@
 
 ## Project repo link:https://github.com/programming-hero-web-course-4/product-analysis-website-Sadnan-2019
 
+## Project Requirment
+* Use CustomHook
+* Use Bootstrap
+* Use React Router
+* Showing Customer Review
+* Use React Rechart
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
