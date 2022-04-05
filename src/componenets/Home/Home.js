@@ -17,12 +17,12 @@ const Home = () => {
           <div className="col-lg-6 col-md-6 py-5 ">
             <h1 className="my-instrument">My Music</h1>
             <h1 className="my-drem">My Drem</h1>
-            <h5 className="description">
+            <h5 className="description  text-start">
               Music is the best way to be beautiful life and happy life.Music is
-              better than drugs. Music always helps us overcome depression.Music
-              is always your partner in your lonely time. Music is always
+              better than drugs. Music always helps us overcome depression.Music is 
+              always your partner in your lonely time. Music is always 
               spreading light. Music has always had the ability to represent a
-              situation
+              situation.
             </h5>
             <button className="btn btn-dark rounded-3 mt-4">Click More</button>
           </div>
