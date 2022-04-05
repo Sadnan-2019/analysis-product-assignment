@@ -16,7 +16,7 @@ const Home = () => {
         <div className="row  py-5 ">
           <div className="col-lg-6 col-md-6 py-5 ">
             <h1 className="my-instrument">My Music</h1>
-            <h1 className="my-drem">My Drem</h1>
+            <h1 className="my-drem">My Dream</h1>
             <p className="text-justify text-black">
               Music is the best way to be beautiful life and happy life.Music is
               better than drugs. Music always helps us overcome depression.Music is 

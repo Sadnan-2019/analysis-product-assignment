@@ -28,9 +28,9 @@ const Dashboard = () => {
       <div className="">
         <BarChart width={600} height={300} data={datas}>
           <XAxis dataKey="month" tick="investment" />
-          <YAxis />
+          <YAxis  />
           <Tooltip></Tooltip>
-          <Bar dataKey="sell" barSize={30} fill="#8884d8" label="investment" />
+          <Bar dataKey="sell"   barSize={30} fill="#8884d8" label="investment" />
         </BarChart>
       </div>
       <div className="ms-4 ">
