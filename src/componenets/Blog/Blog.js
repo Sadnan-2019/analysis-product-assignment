@@ -38,13 +38,13 @@ const Blog = () => {
         </div>
 
         <div className="row">
-          <div class="col-md-6 col-lg-12">
-            <div class="p-3 border rounded-3 border bg-success">
+          <div class="col- col-sm-12 col-md-6 col-lg-12">
+            <div class="p-3 border rounded-3 border bg-success text-justify">
               <h5 className="text-light text-center">
                 Inline VS Block VS Inline-Block?
               </h5>
 
-              <div class="p-3 border rounded-3 border bg-dark text-light d-flex">
+              <div class="p-3 border rounded-3 border bg-dark text-light d-flex mb-4">
                 <div>
                   <h4>Inline</h4>
                   <p>All access for padding.</p>

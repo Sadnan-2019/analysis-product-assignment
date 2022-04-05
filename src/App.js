@@ -4,6 +4,7 @@ import './App.css';
 import Blog from './componenets/Blog/Blog';
 import Dashboard from './componenets/Dashboard/Dashboard';
 import Error from './componenets/Error/Error';
+import Footer from './componenets/Footer/Footer';
 import Header from './componenets/Header/Header';
 import Home from './componenets/Home/Home';
 import Review from './componenets/Review/Review';
@@ -22,6 +23,7 @@ function App() {
         <Route path='/blog' element={<Blog/>}></Route>
         <Route path='*' element={<Error></Error>}></Route>
       </Routes>
+      <Footer></Footer>
 
 
 
